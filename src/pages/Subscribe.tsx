@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { useCreateSubscribeMutation } from "../graphql/generated";
 
-import image from '../assets/code-mochup.png'
+import image from '../assets/code-mockup.png'
 
 export default () => {
   const navigate = useNavigate();
