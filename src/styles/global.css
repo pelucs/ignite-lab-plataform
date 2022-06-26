@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-gray-900 text-gray-100;
+}
+
+body::-webkit-scrollbar{
+  @apply w-2;
+}
+body::-webkit-scrollbar-track{
+  @apply bg-transparent;
+}
+body::-webkit-scrollbar-thumb{
+  @apply w-full bg-gray-500;
+}
