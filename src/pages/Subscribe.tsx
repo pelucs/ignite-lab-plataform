@@ -33,7 +33,7 @@ export default () => {
         <div className="max-w-[640px]">
           <Logo/>
           <h1 className="mt-8 text-[2.5rem] leading-tight">
-            Construa uma <strong className="text-blue-500">aplicação completa</strong>, do zero, com <strong className="text-blue-500">React</strong>
+            Mais de <strong className="text-blue-500">5000</strong> alunos <strong className="text-blue-500">conectados.</strong>
           </h1>
           <p className="mt-4 text-gray-200 leading-relaxed">
             Em apenas uma semana você vai dominar na prática uma das tecnologias mais utilizadas e 
@@ -41,7 +41,7 @@ export default () => {
           </p>
         </div>
 
-        <div className="p-8 bg-gray-700 border border-gray-500 rounded">
+        <div className="mt-20 md:mt-0 p-8 bg-gray-700 border border-gray-500 rounded">
           <strong className="text-2xl mb-6 block">Inscreva-se gratuitamente</strong>
 
           <form onSubmit={handleSubscribe} className="w-full flex flex-col gap-2">
