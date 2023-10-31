@@ -30,7 +30,7 @@ export default () => {
   return(
     <div className="min-h-screen px-5 bg-blur bg-cover bg-no-repeat flex flex-col items-center">
       <div className="w-full max-w-[1100px] flex flex-col md:flex-row items-start md:items-center justify-between mt-20 mx-auto">
-        <div className="max-w-[640px]">
+        <div className="w-full max-w-[640px]">
           <Logo/>
           <h1 className="mt-8 text-[2.5rem] leading-tight">
             Mais de <strong className="text-blue-500">5000</strong> alunos <strong className="text-blue-500">conectados.</strong>
@@ -41,7 +41,7 @@ export default () => {
           </p>
         </div>
 
-        <div className="mt-20 md:mt-0 p-8 bg-gray-700 border border-gray-500 rounded">
+        <div className="w-full mt-14 md:mt-0 p-8 bg-gray-700 border border-gray-500 rounded">
           <strong className="text-2xl mb-6 block">Inscreva-se gratuitamente</strong>
 
           <form onSubmit={handleSubscribe} className="w-full flex flex-col gap-2">
